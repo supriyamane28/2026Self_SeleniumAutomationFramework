@@ -1,0 +1,26 @@
+<suite name="Opencart Application Test Sanity Suite" verbose="4" thread-count="2" parallel="tests">
+
+<listeners>
+<listener class-name="com.aventstack.chaintest.plugins.ChainTestListener"/>
+<listener class-name="com.qa.OpencartProject.listeners.TestAllureListener"/>
+<listener class-name="com.qa.OpencartProject.listeners.AnnotationTransformer"/>
+</listeners>
+
+
+<test name="Login Page Test">
+<parameter name="browser" value="chrome"/>
+<classes>
+<class name="com.qa.OpencartProject.Tests.LoginPageTest"/>
+</classes>
+</test>
+
+<test name="Accounts Page Test">
+<parameter name="browser" value="firefox"/>
+<classes>
+<class name="com.qa.OpencartProject.Tests.AccountsPageTest"/>
+</classes>
+</test>
+
+
+
+</suite>
