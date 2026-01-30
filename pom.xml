@@ -183,10 +183,10 @@
 					<forkCount>3</forkCount>
 					<reuseForks>true</reuseForks>
 					<suiteXmlFiles>
-						<suiteXmlFile>
+						<!--<suiteXmlFile>
 							src/test/Resources/testrunners/testng_regression.xml
-						</suiteXmlFile>
-						<!--<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>-->
+						</suiteXmlFile>-->
+						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
  
 					</suiteXmlFiles>
 					<argLine>
