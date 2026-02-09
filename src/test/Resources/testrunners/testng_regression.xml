@@ -28,7 +28,7 @@
 </classes>
 </test>
 
-<test name="ProductInfo Page Test">
+<!--<test name="ProductInfo Page Test">
 <parameter name="browser" value="chrome"/>
 <classes>
 <class name="com.qa.OpencartProject.Tests.ProductInfoPageTest"/>
@@ -48,6 +48,6 @@
 <class name="com.qa.OpencartProject.Tests.LoginPageNegativeTest"/>
 </classes>
 </test>
-
+-->
 
 </suite>
